@@ -35,21 +35,27 @@
   </distributionManagement>
 
   <build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>3.8.4</source>
-          <target>3.8.4</target>
-        </configuration>
-      </plugin>
-            
-      <plugin>
-        <artifactId>maven-release-plugin</artifactId>
-        <configuration>
-          <autoVersionSubmodules>true</autoVersionSubmodules>
-        </configuration>
-      </plugin>
+      <plugins>
+          <plugin>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <configuration>
+                  <source>3.8.4</source>
+                  <target>3.8.4</target>
+              </configuration>
+          </plugin>
+        
+          <plugin>
+              <artifactId>maven-release-plugin</artifactId>
+              <configuration>
+                  <autoVersionSubmodules>true</autoVersionSubmodules>
+              </configuration>
+          </plugin>
+      </plugins>
+  </build>
+
+  <reporting>
+      <!-- Add reporting configurations and plugins here -->
+  </reporting>
 
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
