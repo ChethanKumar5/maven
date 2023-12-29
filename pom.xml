@@ -54,7 +54,6 @@
   </build>
 
   <reporting>
-      <!-- Add reporting configurations and plugins here -->
   </reporting>
 
       <plugin>
