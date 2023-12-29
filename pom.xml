@@ -35,26 +35,25 @@
   </distributionManagement>
 
   <build>
-      <plugins>
-          <plugin>
-              <artifactId>maven-compiler-plugin</artifactId>
-              <configuration>
-                  <source>3.8.4</source>
-                  <target>3.8.4</target>
-              </configuration>
-          </plugin>
-        
-          <plugin>
-              <artifactId>maven-release-plugin</artifactId>
-              <configuration>
-                  <autoVersionSubmodules>true</autoVersionSubmodules>
-              </configuration>
-          </plugin>
-      </plugins>
-  </build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.6</source>
+          <target>1.6</target>
+        </configuration>
+      </plugin>
 
   <reporting>
+      <!-- Empty reporting section -->
   </reporting>
+             
+      <plugin>
+        <artifactId>maven-release-plugin</artifactId>
+        <configuration>
+          <autoVersionSubmodules>true</autoVersionSubmodules>
+        </configuration>
+      </plugin>
 
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
