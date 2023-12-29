@@ -43,18 +43,9 @@
           <target>1.7</target>
         </configuration>
       </plugin>
-
-  <reporting>
-      <plugins>
-          <plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-site-plugin</artifactId>
-              <version>3.9.1</version>
-              <!-- Other configurations -->
-          </plugin>
-      </plugins>
+    </plugins>
   </reporting>
-             
+            
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
